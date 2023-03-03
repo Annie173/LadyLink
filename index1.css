@@ -12,7 +12,7 @@ body{
   
 }
 .background{
-    background: #9D8189;
+    background-image: linear-gradient(to bottom right,#E3A7F5, #F386BA);
     background-position: center;
     background-size:cover ;
     height: 100vh;
@@ -59,20 +59,20 @@ body{
     transform: translateY(0);
     opacity: 1;
 }
-.container{
-    position: absolute;
-    left: 28%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 75%;
-    height: 550px;
-    margin-top: 20px;
-    background-position: center;
-    background-size:cover ;
-    border-radius: 20px;
-    overflow: hidden;
-    
-    
+
+    .container{
+        position: absolute;
+        left: 28%;
+        top: 50%;
+        box-sizing: border-box;
+        transform: translate(-50%,-50%);
+        width: 75%;
+        height: 550px;
+        margin-top: 20px;
+        background-position: center;
+        background-size:cover ;
+        border-radius: 20px;
+        overflow: hidden;
 }
 .item{
     position: absolute;
@@ -103,16 +103,7 @@ body{
     font-size: 16px;
     margin: 20px 0;
 }
-.social-icon a i{
-    color: #fff;
-    font-size: 24px;
-    margin-left: 10px;
-    cursor: pointer;
-    transition: .5s ease;
-}
-.social-icon a:hover i{
-    transform: scale(1.2);
-}
+
 .container .login-section{
     position: absolute;
     top: 0;
