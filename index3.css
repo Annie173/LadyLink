@@ -137,13 +137,13 @@ body{
 	position: relative;
 	height: 400px;
 	background: #f0f0f0;
-	margin:30px 10px;
+	margin:40px 20px;
 	padding: 30px 15px;
 	display:flex;
 	flex-direction: column;
 	box-shadow: 0.5px 10px #e6e6e6;
 	transition:0.3s ease-in-out;
-	margin-top: 5%;
+	margin-top: 4%;
     border-radius: 10px;
 }
 .container .card .imgBx{
